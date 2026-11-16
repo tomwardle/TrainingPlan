@@ -8,4 +8,6 @@ Every time you change any cached file (index.html, manifest.webmanifest, icons, 
 - MINOR: new features (e.g. adding a nav item or page).
 - MAJOR: breaking or major redesigns. Stay on 0.x.x until the first real release.
 
+Also keep the `?v=` on the manifest link in index.html matching the same version, so Chrome re-fetches the manifest.
+
 If you add a new file the app needs offline, also add it to the `ASSETS` list in sw.js.
