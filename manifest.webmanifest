@@ -1,6 +1,6 @@
 {
-  "name": "hi",
-  "short_name": "hi",
+  "name": "Training",
+  "short_name": "Training",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
